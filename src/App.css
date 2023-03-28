@@ -1,0 +1,27 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Declaration of color variables to be used */
+:root {
+    --first-primary-color: #FFBE34;
+    --second-primary-color: #091242;
+    --secondary-color: #F4F4F4;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Rubik', sans-serif;
+}
+
+p, li {
+    font-family: 'Krub', sans-serif;
+}
+
+
+/* Repeated classes turned into utility classes */
+.--d-flex {
+    display: flex;
+}
