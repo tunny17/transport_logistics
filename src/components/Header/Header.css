@@ -7,6 +7,7 @@
 .header {
     justify-content: space-between;
     width: 1990px;
+    height: 120px;
     align-items: center;
     padding: 2% 10%;
 }
@@ -51,9 +52,10 @@
     height: 78px;
     background: rgba(9, 18, 66, 0.25);
     position: absolute;
-    bottom: -77%;
+    bottom: -65%;
     align-items: center;
     justify-content: center;
+    z-index: 100;
 }
 .navigation {
     width: 80%;
@@ -74,6 +76,7 @@
     list-style-type: none;
 }
 .left-nav ul li {
+    font-weight: 600;
     font-size: 16px;
     cursor: pointer;
 }

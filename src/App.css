@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 /* Declaration of color variables to be used */
 :root {
     --first-primary-color: #FFBE34;
