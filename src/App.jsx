@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
 // component imports
-import { Banner, Header } from './components'
+import { Banner, Header, Services } from './components'
 
 const App = () => {
   return (
     <div>
       <Header />
       <Banner />
+      <Services />
     </div>
   )
 }

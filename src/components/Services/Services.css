@@ -1,0 +1,84 @@
+.services-container {
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+}
+.services {
+    width: 80%;
+    flex-direction: row;
+}
+
+
+/* --- service heading */
+.services-heading {
+    width: 30%;
+}
+.services-heading p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 14px;
+    color: #1C1F35;
+    padding: 3px 0 3px 12px;
+    width: 92px;
+    height: 23px;
+    position: relative;
+    background: rgba(232, 232, 232, 0.5);
+    margin-bottom: 1%;
+}
+.services-heading p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 23px;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+.services-heading h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+    color: #1C1F35;
+}
+
+
+
+/* --- service icons and captions */
+.service {
+    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.service figure {
+    margin: 2%;
+    align-items: stretch;
+    flex-direction: row;
+}
+.service figure div {
+    margin-right: 30px;
+    padding-right: 30px;
+    border-right: 2px solid #D8D8D8;
+}
+.service figure img {
+    width: 49.32px;
+    height: 53.38px;
+}
+.service b {
+    color: #1C1F35;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 25px;
+}
+.service p {
+    width: 270px;
+    height: 72px;
+    color: #666C89;
+    font-family: 'Krub';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    margin-top: 5%;
+}
