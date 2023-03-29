@@ -13,10 +13,12 @@
 }
 
 h1, h2, h3, h4, h5 {
+    color: #fff;
     font-family: 'Rubik', sans-serif;
 }
 
 p, li {
+    color: #fff;
     font-family: 'Krub', sans-serif;
 }
 
@@ -24,4 +26,17 @@ p, li {
 /* Repeated classes turned into utility classes */
 .--d-flex {
     display: flex;
+}
+.--active {
+    position: relative;
+}
+.--active::after {
+    content: '';
+    position: absolute;
+    bottom: -135%;
+    left: 0;
+    width: 60%;
+    height: 2px;
+    background: #fff;
+    z-index: 1000;
 }

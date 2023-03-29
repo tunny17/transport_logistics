@@ -1,6 +1,7 @@
 .header-container {
     align-items: center;
     justify-content: center;
+    position: relative;
     background: var(--second-primary-color);
 }
 .header {
@@ -23,7 +24,6 @@
     position: relative;
 }
 .info p {
-    color: #fff;
     font-weight: 500;
     font-size: 14px;
 }
@@ -34,6 +34,7 @@
     left: -50%;
     top: -40%;
     width: 63px;
+    cursor: pointer;
 }
 .info2::before {
     content: url(../../assets//Header/Header2.svg);
@@ -41,4 +42,68 @@
 .info3::before {
     content: url(../../assets//Header/Header3.svg);
     left: -70%;
+}
+
+
+/* --- navigation */
+.navigation-container {
+    width: 100%;
+    height: 78px;
+    background: rgba(9, 18, 66, 0.25);
+    position: absolute;
+    bottom: -77%;
+    align-items: center;
+    justify-content: center;
+}
+.navigation {
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* the navbar */
+.left-nav {
+    width: 38%;
+    height: 100%;
+    align-items: center;
+}
+.left-nav ul {
+    width: 100%;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.left-nav ul li {
+    font-size: 16px;
+    cursor: pointer;
+}
+.left-nav ul li:not(:last-child) {
+    padding-right: 30px;
+    border-right: 1px solid #fff;
+}
+
+/* the socials and cto button */
+.right-nav {
+    width: 41.5%;
+    height: 100%;
+    align-items: center;
+}
+.right-nav .socials {
+    width: 30%;
+    margin-right: 10%;
+    justify-content: space-between;
+}
+.right-nav .socials img {
+    width: 19.42px;
+    height: 19.42px;
+    cursor: pointer;
+}
+.right-nav button {
+    width: 216px;
+    height: 100%;
+    border: none;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
 }
