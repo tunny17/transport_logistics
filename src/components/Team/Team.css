@@ -1,0 +1,76 @@
+.team-container {
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* the card container */
+.team-info {
+    width: 60%;
+    height: 65vh;
+}
+.team-heading {
+    width: 100%;
+    align-items: center;
+}
+.team-heading p {
+    width: 131px;
+    height: 23px;
+    margin-left: 43%;
+    margin-bottom: 1%;
+}
+.team-heading h2 {
+    text-align: center;
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 35px;   
+    color: #1C1F35;
+}
+/* pictures of each team member */
+.team-images-container {
+    width: 100%;
+    height: 80%;
+    margin-top: 38px;
+    justify-content: space-between;
+}
+/* container (figure) holding both the image and name of the team member */
+.team-image {
+    width: 285px;
+    height: 401px;
+    position: relative;
+    flex-direction: column;
+}
+/* the picture of the team member */
+.team-image img:nth-child(1) {
+    width: 100%;
+    height: 80%;
+}
+/* picture of the socials */
+.team-image img:nth-child(2) {
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    height: 3rem;
+}
+/* container holding the name and job title */
+.team-image-caption {
+    width: 100%;
+    height: 20%;
+    padding-left: 8%;
+    padding-top: 8%;
+    background: #1C1F35;
+}
+.team-image-caption figcaption:nth-child(1) {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.team-image-caption figcaption:nth-child(2) {
+    font-family: 'Krub';
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+}

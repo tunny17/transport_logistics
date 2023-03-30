@@ -1,5 +1,5 @@
 .why-choose-container {
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     margin-top: 5%;
     align-items: center;
@@ -7,6 +7,7 @@
     border: 1px solid #091242;
 }
 
+/* left side of the container */
 .why-choose-container .left {
     width: 50%;
     height: 100%;
@@ -20,12 +21,15 @@
     top: 15%;
     left: 13%;
 }
+/* the golden card on the airplane */
 .why-choose-card {
     position: absolute;
     width: 42%;
     left: 36%;
-    bottom: 7.5%;
+    bottom: 115px;
 }
+
+/* right side of the container */
 .why-choose-container .right {
     width: 50%;
     height: 100%;
@@ -40,14 +44,17 @@
     color: #1C1F35;
 }
 .why-choose-container .right h4 {
-    width: 90%;
+    width: 80%;
     font-family: 'Krub';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 151.52%;
     color: #666C89;
+    margin: 3% 0;
 }
+
+/* a container for the list */
 .opportunity {
     width: 100%;
     display: flex;
@@ -78,16 +85,16 @@
     content: url(../../assets/WhyChooseUs/Why1.svg);
 }
 .opportunity2::before {
-    content: url(../../assets/WhyChooseUs/Why2.svg);
-}
-.opportunity3::before {
     content: url(../../assets/WhyChooseUs/Why3.svg);
 }
+.opportunity3::before {
+    content: url(../../assets/WhyChooseUs/Why5.svg);
+}
 .opportunity4::before {
-    content: url(../../assets/WhyChooseUs/Why4.svg);
+    content: url(../../assets/WhyChooseUs/Why2.svg);
 }
 .opportunity5::before {
-    content: url(../../assets/WhyChooseUs/Why5.svg);
+    content: url(../../assets/WhyChooseUs/Why4.svg);
 }
 .opportunity6::before {
     content: url(../../assets/WhyChooseUs/Why6.svg);
