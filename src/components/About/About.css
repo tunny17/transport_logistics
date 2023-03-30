@@ -1,0 +1,144 @@
+.about-container {
+    width: 100%;
+    height: 1020px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.about-background {
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+.card {
+    position: absolute;
+    width: 970px;
+    height: 547px;
+    background: #FFFFFF;
+    top: 290px;
+    z-index: 500;
+
+    display: flex;
+    padding: 6%;
+}
+/* left side of the card */
+.card-text-container {
+    width: 50%;
+    margin-right: 5%;
+}
+.card-text-container h1 {
+    color: #000;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 41px;
+}
+.card-text-container h4 {
+    color: #666C89;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 151.52%;
+}
+.card-text-container p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 3px 0 3px 12px;
+    width: 64px;
+    height: 23px;
+    color: #1C1F35;
+    position: relative;
+    background: rgba(232, 232, 232, 0.5);
+}
+.card-text-container p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 23px;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+.card-text-container h3 {
+    color: #1C1F35;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 70px;
+    position: relative;
+}
+.card-text-container h3::before {
+    content: url(../../assets/About/Delivery-Icon.svg);
+    position: absolute;
+    top: -70%;
+    left: -22%;
+}
+/* right side of the card */
+.card-image-container {
+    width: 50%;
+}
+/* resizing the first picture */
+.card-image-container img:nth-child(1) {
+    width: 100%;
+    height: 100%;
+}
+/* the second picture */
+.about-overlay {
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    width: 30%;
+    height: 40%;
+}
+
+
+.statistics {
+    position: absolute;
+    bottom: 0;
+    width: 800px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.statistics div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.statistics div:not(:last-child) {
+    border-right: 1px solid #000;
+}
+.statistics div p:nth-child(1) {
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 30px;
+    color: #1C1F35;
+    margin-right: 10%;
+    position: relative;
+}
+/* for the delivery boxes in from of the figures */
+.statistics div p:nth-child(1)::after {
+    content: url(../../assets/About/Package.svg);
+    position: absolute;
+    right: -40%;
+    top: -10%;
+}
+.statistics div p:nth-child(2) {
+    font-family: 'League Spartan';
+    font-weight: 400;
+    font-size: 17px;
+    color: #1C1F35;
+}
