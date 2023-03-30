@@ -1,0 +1,94 @@
+.why-choose-container {
+    height: 80vh;
+    width: 100%;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #091242;
+}
+
+.why-choose-container .left {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background: #091242;
+}
+.why-choose-airplane {
+    width: 735px;
+    height: 490px;
+    position: absolute;
+    top: 15%;
+    left: 13%;
+}
+.why-choose-card {
+    position: absolute;
+    width: 42%;
+    left: 36%;
+    bottom: 7.5%;
+}
+.why-choose-container .right {
+    width: 50%;
+    height: 100%;
+    background: #F4F4F4;
+    padding: 10% 7%;
+}
+.why-choose-container .right h2 {
+    width: 80%;
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 35px;
+    color: #1C1F35;
+}
+.why-choose-container .right h4 {
+    width: 90%;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    color: #666C89;
+}
+.opportunity {
+    width: 100%;
+    display: flex;
+    margin-left: 12%;
+}
+.opportunity div {
+    width: 50%;
+}
+.opportunity li {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #1C1F35;
+    list-style-type: none;
+    margin: 15% 0;
+    position: relative;
+}
+
+.opportunity li::before {
+    position: absolute;
+    top: -40%;
+    left: -23%;
+    zoom: 80%;
+}
+.opportunity1::before {
+    content: url(../../assets/WhyChooseUs/Why1.svg);
+}
+.opportunity2::before {
+    content: url(../../assets/WhyChooseUs/Why2.svg);
+}
+.opportunity3::before {
+    content: url(../../assets/WhyChooseUs/Why3.svg);
+}
+.opportunity4::before {
+    content: url(../../assets/WhyChooseUs/Why4.svg);
+}
+.opportunity5::before {
+    content: url(../../assets/WhyChooseUs/Why5.svg);
+}
+.opportunity6::before {
+    content: url(../../assets/WhyChooseUs/Why6.svg);
+}
