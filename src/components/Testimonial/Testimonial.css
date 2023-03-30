@@ -1,0 +1,125 @@
+.testimonials-container {
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.testimonials {
+    width: 70%;
+    height: 542px;
+}
+.testimonials-heading {
+    margin-bottom: 3%;
+    position: relative;
+}
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    zoom: 80%;
+    cursor: pointer;
+}
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    zoom: 80%;
+    cursor: pointer;
+}
+.testimonials-heading h1 {
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 30px;
+    color: #1C1F35;
+}
+
+.testimonial {
+    width: 100%;
+    height: 81%;
+}
+.user1,
+.user2
+    {
+    padding: 3%;
+    height: 100%;
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.user1 div,
+.user2 div
+    {
+    margin: 3% 0;
+}
+.user1 .info,
+.user2 .info {
+    margin-left: 20%;
+    position: relative;
+}
+.user1 .info::before {
+    content: url(../../assets/Testimonial/User1.png);
+    position: absolute;
+    left: -55%;
+    top: -25%;
+    zoom: 80%;
+}
+.user2 .info::before {
+    content: url(../../assets/Testimonial/User2.png);
+    position: absolute;
+    left: -55%;
+    top: -25%;
+    zoom: 80%;
+}
+.user1 .info::after,
+.user2 .info::after {
+    content: url(../../assets/Testimonial/Quotation.svg);
+    position: absolute;
+    right: -230px;
+    top: -20%;
+    zoom: 80%;
+}
+
+.testimonial .info h3 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #091242;
+}
+.testimonial .info p {
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    color: #091242;
+}
+.testimonial .comment p {
+    font-family: 'Krub';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 151.52%;
+    color: #666C89;
+}
+
+
+.user2 {
+    padding: 3%;
+    height: 100%;
+    background: #091242;
+}
+.user2 .info h3 {
+    color: #fff;
+}
+.user2 .info p {
+    color: #fff;
+}
+.user2 .comment p {
+    color: #fff;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 // component imports
-import { About, Banner, Header, Project, Services } from './components'
+import { About, Banner, Header, Project, Services, Testimonial } from './components'
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
       <Services />
       <About />
       <Project />
+      <Testimonial />
     </div>
   )
 }

@@ -20,16 +20,16 @@
     width: 60%;
     justify-content: space-between;
 }
-.info {
+.info-container .info {
     margin-right: 12%;
     position: relative;
 }
-.info p {
+.info-container .info p {
     font-weight: 500;
     font-size: 14px;
 }
 /* the icons */
-.info::before {
+.info-container .info::before {
     content: url(../../assets/Header/Header1.svg);
     position: absolute;
     left: -50%;
@@ -37,10 +37,10 @@
     width: 63px;
     cursor: pointer;
 }
-.info2::before {
+.info-container .info2::before {
     content: url(../../assets//Header/Header2.svg);
 }
-.info3::before {
+.info-container .info3::before {
     content: url(../../assets//Header/Header3.svg);
     left: -70%;
 }

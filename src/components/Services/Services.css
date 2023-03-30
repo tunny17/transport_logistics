@@ -14,7 +14,7 @@
 .services-heading {
     width: 30%;
 }
-.services-heading p {
+.sub-heading {
     font-family: 'Rubik';
     font-weight: 400;
     font-size: 14px;
@@ -26,7 +26,7 @@
     background: rgba(232, 232, 232, 0.5);
     margin-bottom: 1%;
 }
-.services-heading p::before {
+.sub-heading::before {
     content: '';
     position: absolute;
     top: 0;

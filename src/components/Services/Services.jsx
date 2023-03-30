@@ -8,7 +8,7 @@ const Services = () => {
     <div className='services-container  --d-flex'>
         <div className="services  --d-flex">
             <div className="services-heading">
-                <p>What We Do</p>
+                <p className='sub-heading'>What We Do</p>
                 <h2>Safe & Reliable <br /> Cargo Solutions</h2>
             </div>
             <div className="service  --d-flex">

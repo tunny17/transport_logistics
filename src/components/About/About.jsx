@@ -8,7 +8,7 @@ const About = () => {
         <img src={AboutBackground} alt="" className='about-background'/>
         <div className="card">
             <div className="card-text-container">
-                <p>Why Us</p>
+                <p className='sub-heading'>Why Us</p>
                 <h1>We provide full range global logistics solution</h1>
                 <h4>
                     Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. <br /> 
