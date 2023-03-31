@@ -6,15 +6,18 @@
     background: #091242;
 }
 
+/* container of the contact card */
 .contact {
     width: 60%;
     height: 75%;
     flex-direction: row;
     position: relative;
 }
+/* the left side of the contact card */
 .contacts {
     width: 40%;
 }
+/* to resize the subheading and make necessary adjustments */
 .contacts p {
     width: 75px;
     color: #fff;
@@ -51,6 +54,7 @@
     margin: 20% 0;
     position: relative;
 }
+/* for the icons of each contact */
 .contacts li:nth-child(1)::before,
 .contacts li:nth-child(2)::before,
 .contacts li:nth-child(3)::before {
@@ -58,7 +62,6 @@
     position: absolute;
     top: -20%;
     left: -27%;
-    /* zoom: 90%; */
 }
 .contacts li:nth-child(2)::before {
     content: url(../../assets/Contact/Contact2.svg);
@@ -68,9 +71,7 @@
 }
 
 
-
-
-
+/* the right side of the contact card */
 .form {
     margin-top: 3%;
     width: 60%;
@@ -115,7 +116,6 @@
     width: 194px;
     height: 55px;
     background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
-
     margin-top: 5%;
     margin-left: 1%;
 }

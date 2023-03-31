@@ -1,0 +1,124 @@
+.blog-container {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* the blog's body */
+.blog {
+    width: 930px;
+    height: 80%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #D6D6D6;
+}
+.blog-heading {
+    height: 13vh;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+.blog-heading p {
+    width: 80px;
+    margin-left: 45%
+}
+.blog-heading h2 {
+    text-align: center;
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 35px;
+    color: #1C1F35;
+}
+
+
+
+/*  each post on the blog (the horizontal sections)*/
+.post {
+    display: flex;
+    padding: 3% 0;
+    border-top: 1px solid #D6D6D6;
+}
+
+/* the left part of the section (the picture and the calender respectively) */
+.post-img {
+    width: 60%;
+    align-items: flex-start;
+    border-right: 1px solid #D6D6D6;
+    position: relative;
+}
+.post-img img:nth-child(1) {
+    width: 453px;
+    height: 308px;
+    margin-right: 5%;
+}
+.post-img img:nth-child(2) {
+    width: 51.33px;
+    height: 56px;
+}
+/* the date container */
+.post-img div {
+    position: absolute;
+    right: 2.5%;
+    top: 18%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.post-img div h3 {
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 35px;
+    color: #1C1F35;
+}
+.post-img div p {
+    font-family: 'Krub';
+    font-weight: 500;
+    font-size: 14px;
+    color: #666C89;
+}
+
+
+/* the right side of the section i.e the news */
+.news {    
+    width: 40%;
+    padding-left: 4%;
+}
+/* the topic of the news */
+.news .news-outline {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #1C1F35;
+    margin: 3% 0;
+}
+.news p {
+    font-family: 'Krub';
+    font-weight: 500;
+    font-size: 14px;
+    font-size: 16px;
+    line-height: 151.52%;
+    color: #666C89;
+    margin-bottom: 3%;
+}
+.news li {
+    font-family: 'Krub';
+    font-weight: 500;
+    font-size: 16px;
+    color: #1C1F35;
+    margin-top: 4%;
+}
+
+/* this is also a news outline but was separated because of it's different color */
+.golden {
+    color: #FFBE34;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 3% 0;
+}
