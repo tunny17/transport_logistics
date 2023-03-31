@@ -67,6 +67,7 @@ const Blog = () => {
                 </div>
             </div>
         </div>
+        <button>More Blog</button>
     </div>
   )
 }
