@@ -13,7 +13,7 @@ The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 <h1>Problems Faced</h1>
-The major problem I faced was the sizing issue, to back up this problem, when you play the prototype of the figma file, the viewport is bigger than it ought to. I believe the Frame used to create the figma file is bigger than the normal desktop width. However I could be wrong, so far that's the only problem I faced.
+The major problem I faced was the sizing. The instrucion is "pixel-perfect implimentation" and the sizing weren't aligned to a desktop screen, to back up this problem, when you play the prototype of the figma file, the viewport is bigger than it ought to. I believe the Frame used to create the figma file is bigger than the normal desktop width. However I could be wrong, so far that's the only problem I faced.
 
 <h1>Contact</h1>
 Email: tvnji01@gmail.com
