@@ -4,7 +4,7 @@ import { Airplane, Card } from '../../assets/WhyChooseUs';
 
 const WhyChoose = () => {
   return (
-    <div  className='why-choose-container  --d-flex'>
+    <div  className='why-choose-container  --d-flex' data-scroll-section>
         <div className="left">
             <img src={Airplane} alt="" className='why-choose-airplane'/>
             <img src={Card} alt="" className='why-choose-card'/>

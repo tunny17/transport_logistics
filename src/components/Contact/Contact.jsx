@@ -4,7 +4,7 @@ import { ClientLogo } from '../../assets/Contact';
 
 const Contact = () => {
   return (
-    <div  className='contact-container  --d-flex' >
+    <div  className='contact-container  --d-flex' data-scroll-section>
         <div className="contact  --d-flex">
             <div className="contacts">
                 <p className='sub-heading'>Contact</p>

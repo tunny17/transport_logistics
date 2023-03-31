@@ -4,7 +4,7 @@ import { Blog1, Blog2, Blog3, Calendar1, Calendar2, Calendar3 } from '../../asse
 
 const Blog = () => {
   return (
-    <div  className='blog-container  --d-flex'>
+    <div  className='blog-container  --d-flex'  data-scroll-section>
         <div className="blog">
             <div className="blog-heading">
                 <p className='sub-heading'>Our Blog</p>

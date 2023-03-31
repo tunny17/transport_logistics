@@ -4,40 +4,40 @@ import { Project1, Project2, Project3, Project4, Project5, ProjectBackground } f
 
 const Project = () => {
   return (
-    <div  className='projects-container'>
+    <div  className='projects-container'  data-scroll-section>
         <div className="projects-heading">
             <h2>Transporting Across The World</h2>
         </div>
         <div className="projects  --d-flex">
-            <figure>
+            <figure data-scroll data-scroll-speed='-1'>
                 <img src={Project1} alt="" />
                 <div  className='captions'>
                     <figcaption>Liquid Transportation</figcaption>
                     <figcaption>Premium Tankers</figcaption>
                 </div>
             </figure>
-            <figure>
+            <figure data-scroll data-scroll-speed='1'>
                 <img src={Project2} alt="" />
                 <div  className='captions'>
                     <figcaption>Packaging Solutions</figcaption>
                     <figcaption>Warehouse Management</figcaption>
                 </div>
             </figure>
-            <figure>
+            <figure data-scroll data-scroll-speed='-1'>
                 <img src={Project3} alt="" />
                 <div  className='captions'>
                     <figcaption>Contract Logistics</figcaption>
                     <figcaption>Road Transportation</figcaption>
                 </div>
             </figure>
-            <figure>
+            <figure data-scroll data-scroll-speed='1'>
                 <img src={Project4} alt="" />
                 <div  className='captions'>
                     <figcaption>Warehouse & Distribution</figcaption>
                     <figcaption>Large Warehouse</figcaption>
                 </div>
             </figure>
-            <figure>
+            <figure data-scroll data-scroll-speed='-1'>
                 <img src={Project5} alt="" />
                 <div  className='captions'>
                     <figcaption>Specialized Transport</figcaption>

@@ -4,9 +4,9 @@ import { About1, About2, AboutBackground } from '../../assets/About'
 
 const About = () => {
   return (
-    <div  className='about-container  --d-flex'>
+    <div  className='about-container  --d-flex'  data-scroll-section>
         <img src={AboutBackground} alt="" className='about-background'/>
-        <div className="card">
+        <div className="card"  data-scroll data-scroll-speed='-1'>
             <div className="card-text-container">
                 <p className='sub-heading'>Why Us</p>
                 <h1>We provide full range global logistics solution</h1>

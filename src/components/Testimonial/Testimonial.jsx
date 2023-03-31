@@ -4,7 +4,7 @@ import { LeftArrow, Rating, RightArrow } from '../../assets/Testimonial';
 
 const Testimonial = () => {
   return (
-    <div  className='testimonials-container  --d-flex'>
+    <div  className='testimonials-container  --d-flex' data-scroll-section>
         <div className="testimonials">
             <div className="testimonials-heading">
                 <p className='sub-heading'>Testimonial</p>

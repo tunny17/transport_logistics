@@ -4,7 +4,7 @@ import { Social1, Social2, Social3, Team1, Team2, Team3 } from '../../assets/Tea
 
 const Team = () => {
   return (
-    <div  className='team-container  --d-flex'>
+    <div  className='team-container  --d-flex'  data-scroll-section>
         <div className="team-info">
             <div className="team-heading">
                 <p  className='sub-heading'>The Transporters</p>

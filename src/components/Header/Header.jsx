@@ -1,12 +1,12 @@
 import React from 'react';
 import './Header.css';
 // import for header assets
-import { Logo, Social1, Social2, Social3, Social4 } from '../../assets/Header';
+import { Logo } from '../../assets/Header';
 
 const Header = () => {
   return (
-    <div  className='header-container  --d-flex'>
-        <div className="header  --d-flex">
+    <div  className='header-container  --d-flex'  data-scroll-section>
+        <div className="header  --d-flex"  data-scroll-section>
             <div className="logo-container">
                 <img src={Logo} alt="Company Logo" />
             </div>
@@ -25,7 +25,8 @@ const Header = () => {
                 </div>
             </div>
         </div>
-        <div className="navigation-container  --d-flex">
+        {/* made it a component itself instead */}
+        {/* <div className="navigation-container  --d-flex"  data-scroll-section>
             <div className="navigation  --d-flex">
                 <div className="left-nav --d-flex">
                     <ul className='--d-flex'>
@@ -46,7 +47,7 @@ const Header = () => {
                     <button>Request Quote</button>
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

@@ -4,7 +4,7 @@ import { FooterImg, Logo, Socials } from '../../assets/Footer';
 
 const Footer = () => {
   return (
-    <div  className='footer-container  --d-flex'>
+    <div  className='footer-container  --d-flex' data-scroll-section>
         <img src={FooterImg} alt="" className='footer-background'/>
         <div className="footer-body">
             <div className="footer-nav  --d-flex">

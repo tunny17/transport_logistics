@@ -5,7 +5,7 @@ import { Service1, Service2, Service3, Service4 } from '../../assets/Services';
 
 const Services = () => {
   return (
-    <div className='services-container  --d-flex'>
+    <div className='services-container  --d-flex'  data-scroll-section>
         <div className="services  --d-flex">
             <div className="services-heading">
                 <p className='sub-heading'>What We Do</p>
