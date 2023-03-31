@@ -8,3 +8,4 @@ export { default as WhyChoose } from './WhyChoose/WhyChoose';
 export { default as Team } from './Team/Team';
 export { default as Contact } from './Contact/Contact';
 export { default as Blog } from './Blog/Blog';
+export { default as BFooterlog } from './Footer/Footer';
