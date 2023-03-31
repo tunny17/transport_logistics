@@ -1,5 +1,5 @@
 <h1>TransitFlow</h1>
-This is a Landing page for a transportation company. It was made with react vite and vanilla css.
+This is a Landing page for a transportation company. It was made with react, vite, vanilla css and react-locomotive-scroll for the smooth scrolling.
 
 <h1>Links</h1>
 Live Site : https://tunnytransitflow.netlify.app/
